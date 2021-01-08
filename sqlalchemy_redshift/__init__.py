@@ -17,7 +17,7 @@ for package in ['psycopg2', 'psycopg2-binary', 'psycopg2cffi']:
     except DistributionNotFound:
         pass
 
-__version__ = get_distribution('sqlalchemy-redshift').version
+__version__ = get_distribution('hs-sqlalchemy-redshift').version
 
 from sqlalchemy.dialects import registry
 
